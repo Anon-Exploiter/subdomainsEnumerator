@@ -19,3 +19,8 @@ Currently integrated tools include:
 * [Amass](https://github.com/OWASP/Amass)
 * [OneForAll](https://github.com/shmilylty/OneForAll/)
 * [Asset Finder](https://github.com/tomnomnom/assetfinder)
+
+## Contribution
+Want to add another tools? If you can, make a PR editing the bash file containing script's args etc. & Dockerfile containing the cloning and setting up. 
+
+In case you can't, no problem, file a issue with the tool name and the features you would like to have and I'll try to work on the integration. 
