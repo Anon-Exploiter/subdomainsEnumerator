@@ -19,7 +19,7 @@ RUN git clone https://github.com/aboul3la/Sublist3r && \
 	python3 -m venv /root/Sublist3r/env/ && \
 	/bin/bash -c "source /root/Sublist3r/env/bin/activate && pip install -r /root/Sublist3r/requirements.txt"
 
-RUN	git clone https://github.com/shmilylty/OneForAll && \
+RUN git clone https://github.com/shmilylty/OneForAll && \
 	mkdir /root/OneForAll/env && \
 	python3 -m venv /root/OneForAll/env/ && \
 	/bin/bash -c "source /root/OneForAll/env/bin/activate && pip install -r /root/OneForAll/requirements.txt"
