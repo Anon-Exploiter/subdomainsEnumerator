@@ -5,12 +5,12 @@ A docker image which will enumerate, sort and unique the results of various subd
 You can build the docker image yourself using the following:
 ```bash
 git clone https://github.com/Anon-Exploiter/subdomainsEnumerator && cd subdomainsEnumerator
-docker build -t uexpl0it/subdomains-enumerator .
+docker build -t uexpl0it/subdomains-enumerator:0.1 .
 ```
 
 ## Usage
 ```bash
-docker run -it --rm uexpl0it/subdomains-enumerator
+docker run -it --rm uexpl0it/subdomains-enumerator:0.1
 ```
 ## Tools
 Currently integrated tools include:
