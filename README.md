@@ -3,15 +3,20 @@ A docker image which will enumerate, sort and unique the results of various subd
 
 ## Building the docker image
 You can build the docker image yourself using the following:
+
 ```bash
 git clone https://github.com/Anon-Exploiter/subdomainsEnumerator && cd subdomainsEnumerator
 docker build -t uexpl0it/subdomains-enumerator:0.1 .
+docker run -it --rm uexpl0it/subdomains-enumerator:0.1
 ```
 
-## Usage
+## Using Image from Dockerhub
+In case you don't want to build the image yourself, just execute the line below and you'll be done and dusted. 
+
 ```bash
 docker run -it --rm uexpl0it/subdomains-enumerator:0.1
 ```
+
 ## Tools
 Currently integrated tools include:
 * [Sublist3r](https://github.com/aboul3la/Sublist3r)
