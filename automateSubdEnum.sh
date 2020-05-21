@@ -8,7 +8,7 @@ echo -e "\n$bar\n\tSubdomains Enumerator\n$bar\n"
 read -p "Please enter target (i.e. site.com): " domain
 
 HOST=$domain
-
+ 
 ##
 
 sublist3rPATH=../results/$HOST-sublist3r.txt
