@@ -17,7 +17,7 @@ In case you don't want to build the image yourself, just execute the line below 
 docker run -it --rm uexpl0it/subdomains-enumerator:0.1
 ```
 
-## Docker Page
+## Docker HUB Page
 https://hub.docker.com/r/uexpl0it/subdomains-enumerator
 
 ## Tools
