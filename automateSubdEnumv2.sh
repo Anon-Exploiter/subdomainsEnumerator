@@ -69,7 +69,7 @@ function sortResults() {
 
 function resolveSubdomains() {
 	cd /root/massdns/
-	cat /root/results/results.txt | /root/massdns/bin/massdns -r /root/massdns/lists/resolvers.txt -t A -o S -w /root/massdns/results-resolved.txt
+	cat /root/results/results.txt | /root/massdns/bin/massdns -r /root/massdns/lists/resolvers.txt --quiet -t A -o S -w /root/massdns/results-resolved.txt
 
 	echo -e "\n$bar\nResolved Results:\n$bar\n"
 	echo -e "[#] Resolved Count: $(wc -l < /root/massdns/results-resolved.txt)\n"
