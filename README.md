@@ -36,10 +36,9 @@ In case you can't, no problem, file a issue with the tool name and the features 
 
 ## Change log
 
-### [0.2] - 03-06-2020
-#### Changed
-- Added MassDNS for also resolving the subdomains results.
+| Changes                                                      | Release                                             |
+| ------------------------------------------------------------ | --------------------------------------------------- |
+| Added MassDNS for also resolving the subdomains results.     | 0.2 - 03-06-2020                                  |
+| Initial release containing sublist3r, subfinder, amass, oneforall & asset finder. | 0.1 - 21-05-2020                                  |
 
-### [0.1] - 21-05-2020
-#### First Release
-- Initial release containing sublist3r, subfinder, amass, oneforall & asset finder.
+
