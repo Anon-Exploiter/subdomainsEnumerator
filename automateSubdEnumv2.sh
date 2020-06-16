@@ -16,6 +16,7 @@ subfinderPATH=./results/$HOST-subfinder.txt
 amassPATH=./results/$HOST-amass.txt
 oneForAllPATH=../results/
 assetfinderPATH=./results/$HOST-assetfinder.txt
+finddomainPATH=./results/$HOST-findomain.txt
 
 ##
 
@@ -56,6 +57,13 @@ function automateAssetsFinder() {
 	assetfinder --subs-only $HOST | tee $assetfinderPATH
 }
 
+function automateFindomain() {
+	echo -e "\n$bar\n\tRunning Findomain\n$bar\n"
+	cd $mainPATH
+	./findomain-linux -t $HOST -u $finddomainPATH
+
+}
+
 function sortResults() {
 	cd $mainPATH
 	cd results/
@@ -81,6 +89,8 @@ automateSubfinder $HOST
 automateAmass $HOST
 automateOneForAll $HOST
 automateAssetsFinder $HOST
+automateFindomain $HOST
+
 
 sortResults
 resolveSubdomains

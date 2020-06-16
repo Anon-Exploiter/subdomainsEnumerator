@@ -27,6 +27,7 @@ Currently integrated tools include:
 * [Amass](https://github.com/OWASP/Amass)
 * [OneForAll](https://github.com/shmilylty/OneForAll/)
 * [Asset Finder](https://github.com/tomnomnom/assetfinder)
+* [Findomain](https://github.com/Edu4rdSHL/findomain)
 * [MassDNS](https://github.com/blechschmidt/massdns)
 
 ## Contribution

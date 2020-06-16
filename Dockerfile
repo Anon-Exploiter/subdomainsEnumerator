@@ -34,6 +34,9 @@ RUN go get -v github.com/projectdiscovery/subfinder/cmd/subfinder && \
 	go get -v github.com/OWASP/Amass/v3/... && \
 	go get -u github.com/tomnomnom/assetfinder
 
+RUN wget https://github.com/Edu4rdSHL/findomain/releases/latest/download/findomain-linux && \
+	chmod +x findomain-linux
+
 RUN mkdir results && \
 	wget https://raw.githubusercontent.com/Anon-Exploiter/subdomainsEnumerator/master/automateSubdEnumv2.sh
 
