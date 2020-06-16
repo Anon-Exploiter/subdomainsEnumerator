@@ -27,8 +27,8 @@ Currently integrated tools include:
 * [Amass](https://github.com/OWASP/Amass)
 * [OneForAll](https://github.com/shmilylty/OneForAll/)
 * [Asset Finder](https://github.com/tomnomnom/assetfinder)
-* [MassDNS](https://github.com/blechschmidt/massdns)
 * [Findomain](https://github.com/Edu4rdSHL/findomain)
+* [MassDNS](https://github.com/blechschmidt/massdns)
 
 ## Contribution
 Want to add another tools? If you can, make a PR editing the bash file containing script's args etc. & Dockerfile containing the cloning and setting up. 
