@@ -28,6 +28,7 @@ Currently integrated tools include:
 * [OneForAll](https://github.com/shmilylty/OneForAll/)
 * [Asset Finder](https://github.com/tomnomnom/assetfinder)
 * [MassDNS](https://github.com/blechschmidt/massdns)
+* [Findomain](https://github.com/Edu4rdSHL/findomain)
 
 ## Contribution
 Want to add another tools? If you can, make a PR editing the bash file containing script's args etc. & Dockerfile containing the cloning and setting up. 
