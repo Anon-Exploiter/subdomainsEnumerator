@@ -48,7 +48,7 @@ function automateOneForAll() {
 	python oneforall.py --target $HOST run --path=$oneForAllPATH
 	cd $mainPATH/results/
 	rm -rf *.csv
-	mv all_subdomain_result* oneforall.txt
+	mv all_subdomain_result* $HOST-oneforall.txt
 }
 
 function automateAssetsFinder() {
@@ -60,8 +60,7 @@ function automateAssetsFinder() {
 function automateFindomain() {
 	echo -e "\n$bar\n\tRunning Findomain\n$bar\n"
 	cd $mainPATH
-	./findomain-linux -t $HOST -u $finddomainPATH
-
+	findomain-linux -t $HOST -u $finddomainPATH
 }
 
 function sortResults() {
