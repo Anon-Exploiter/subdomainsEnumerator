@@ -1,3 +1,4 @@
+
 # Subdomains Enumerator
 A docker image which will enumerate, sort and unique the results of various subdomains enumeration tools. 
 
@@ -6,15 +7,15 @@ You can build the docker image yourself using the following:
 
 ```bash
 git clone https://github.com/Anon-Exploiter/subdomainsEnumerator && cd subdomainsEnumerator
-docker build -t uexpl0it/subdomains-enumerator:0.2 .
-docker run -it --rm uexpl0it/subdomains-enumerator:0.2
+docker build -t uexpl0it/subdomains-enumerator:0.3 .
+docker run -it --rm uexpl0it/subdomains-enumerator:0.3
 ```
 
 ## Using Image from Dockerhub
 In case you don't want to build the image yourself, just execute the line below and you'll be done and dusted. 
 
 ```bash
-docker run -it --rm uexpl0it/subdomains-enumerator:0.2
+docker run -it --rm uexpl0it/subdomains-enumerator:0.3
 ```
 
 ## Docker HUB Page
@@ -39,6 +40,7 @@ In case you can't, no problem, file a issue with the tool name and the features 
 
 | Changes                                                      | Release                                             |
 | ------------------------------------------------------------ | --------------------------------------------------- |
+| Integrated PR [#1](https://github.com/Anon-Exploiter/subdomainsEnumerator/pull/1) adding [findomain](https://github.com/Edu4rdSHL/findomain) (tool) and reduced image size from ~800 to ~400 MB     | 0.3 - 17-06-2020                                  |
 | Added MassDNS for also resolving the subdomains results.     | 0.2 - 03-06-2020                                  |
 | Initial release containing sublist3r, subfinder, amass, oneforall & asset finder. | 0.1 - 21-05-2020                                  |
 
