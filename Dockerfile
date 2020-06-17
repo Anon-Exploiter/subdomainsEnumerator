@@ -44,9 +44,9 @@ RUN cd bins && \
 	strip *
 
 RUN mkdir results && \
-	wget https://raw.githubusercontent.com/Anon-Exploiter/subdomainsEnumerator/master/automateSubdEnum.sh
+	wget https://raw.githubusercontent.com/Anon-Exploiter/subdomainsEnumerator/master/automateSubdEnum.sh -O /root/automateSubdEnum.sh
 
-RUN apt-get purge -y wget git && \
+RUN apt-get purge -y wget git python3-pip python3-venv unzip && \
 	apt-get autoremove -y
 
 CMD ["/bin/bash", "-c", "/bin/bash automateSubdEnum.sh"]
