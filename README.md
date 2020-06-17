@@ -18,8 +18,8 @@ In case you don't want to build the image yourself, just execute the line below 
 docker run -it --rm uexpl0it/subdomains-enumerator:0.3
 ```
 
-## Docker HUB Page
-https://hub.docker.com/r/uexpl0it/subdomains-enumerator
+## Previous Releases:
+https://hub.docker.com/r/uexpl0it/subdomains-enumerator/tags
 
 ## Tools
 Currently integrated tools include:
