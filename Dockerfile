@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV PATH="${PATH}:/root/bins/"
 
 RUN apt-get update -y
-RUN apt-get install -y git wget python3 python3-pip unzip
+RUN apt-get install -y wget python3 python3-pip unzip
 
 WORKDIR /root/
 
@@ -54,7 +54,7 @@ RUN cd bins && \
 RUN mkdir results && \
 	wget https://raw.githubusercontent.com/Anon-Exploiter/subdomainsEnumerator/master/automateSubdEnum.sh -O automateSubdEnum.sh
 
-RUN apt-get purge -y wget git unzip && \
+RUN apt-get purge -y wget unzip && \
 	apt-get autoremove -y
 
 CMD ["/bin/bash", "-c", "/bin/bash automateSubdEnum.sh"]
