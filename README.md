@@ -1,6 +1,8 @@
 # Subdomains Enumerator
 A docker image which will enumerate, sort, unique and resolve the results of various subdomains enumeration tools.
 
+[![asciicast](https://asciinema.org/a/360015.svg)](https://asciinema.org/a/360015)
+
 ## Building the docker image
 You can build the docker image yourself using the following:
 
