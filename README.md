@@ -1,4 +1,4 @@
-# Subdomains Enumerator
+# Subdomains Enumeration (but with docker!)
 A docker image which will enumerate, sort, unique and resolve the results of various subdomains enumeration tools.
 
 [![asciicast](https://asciinema.org/a/360015.svg)](https://asciinema.org/a/360015)
