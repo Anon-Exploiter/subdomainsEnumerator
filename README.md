@@ -42,6 +42,9 @@ Want to add another tools? If you can, make a PR editing the bash file containin
 
 In case you can't, no problem, file a issue with the tool name and the features you would like to have and I'll try to work on the integration. 
 
+### Stargazers Chart
+[![Stargazers over time](https://starchart.cc/Anon-Exploiter/subdomainsEnumerator.svg)](https://starchart.cc/Anon-Exploiter/subdomainsEnumerator)
+
 ## Change log
 
 | Changes                                                      | Release                                             |
