@@ -19,6 +19,11 @@ In case you don't want to build the image yourself, just execute the line below 
 docker run -it --rm uexpl0it/subdomains-enumerator:0.4
 ```
 
+Mounting and saving results
+```bash
+docker run -it --rm -v /home/<user>/results/:/root/results/ uexpl0it/subdomains-enumerator:0.4
+```
+
 ## Previous Releases:
 https://hub.docker.com/r/uexpl0it/subdomains-enumerator/tags
 
