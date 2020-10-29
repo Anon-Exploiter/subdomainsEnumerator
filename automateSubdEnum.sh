@@ -1,20 +1,23 @@
 #!/bin/bash
 
-mainPATH=$(pwd)/
+export PATH=$PATH:/root/bins/
+
+mainPATH=/root
 bar="---------------------------------------"
 
 echo -e "\n$bar\n\tSubdomains Enumerator\n$bar\n"
 read -p "Please enter target (i.e. site.com): " domain
 
 HOST=$domain
-sublist3rPATH=../results/$HOST-sublist3r.txt
-subfinderPATH=./results/$HOST-subfinder.txt
-amassPATH=./results/$HOST-amass.txt
-oneForAllPATH=../results/
-assetfinderPATH=./results/$HOST-assetfinder.txt
-finddomainPATH=./results/$HOST-findomain.txt
+sublist3rPATH=/root/results/$HOST-sublist3r.txt
+subfinderPATH=/root/results/$HOST-subfinder.txt
+amassPATH=/root/results/$HOST-amass.txt
+oneForAllPATH=/root/results/
+assetfinderPATH=/root/results/$HOST-assetfinder.txt
+finddomainPATH=./root/results/$HOST-findomain.txt
 
-# Mainting social distancing between vars and funcs :) 
+# Maintaining social distancing between vars and funcs :)
+# UwU 
 
 function automateSublist3r() {
 	echo -e "\n$bar\n\tRunning Sublist3r\n$bar\n"
