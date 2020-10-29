@@ -1,4 +1,12 @@
 # Subdomains Enumeration (but with docker!)
+
+<a href="https://colab.research.google.com/github/Anon-Exploiter/subdomainsEnumerator/blob/master/Subdomains_Enumeration.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Anon-Exploiter/subdomainsEnumerator.js/graphs/commit-activity)
+![GitHub](https://img.shields.io/github/license/Anon-Exploiter/subdomainsEnumerator)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/Anon-Exploiter/subdomainsEnumerator)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Anon-Exploiter/subdomainsEnumerator)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=%40syed_umar)](https://twitter.com/syed__umar)
+
 A docker image which will enumerate, sort, unique and resolve the results of various subdomains enumeration tools.
 
 [![asciicast](https://asciinema.org/a/360015.svg)](https://asciinema.org/a/360015)
